@@ -1,0 +1,20 @@
+{
+  "name": "request-auth",
+  "version": "0.0.1",
+  "description": "Proof of concept for API request authorization via a client ID and secret. The request signing and verification is in auth.js - some shortcuts were taken as to not cloud the example with code not core to the concept.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katzgrau/request-auth.git"
+  },
+  "author": "Kenny Katzgrau",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/katzgrau/request-auth/issues"
+  },
+  "homepage": "https://github.com/katzgrau/request-auth#readme"
+}
