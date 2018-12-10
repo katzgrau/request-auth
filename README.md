@@ -9,6 +9,8 @@ verifying idendity and authenticty of the message, while also checking that
 the timestamp on the request is at most 60 seconds in the past, preventing
 replay attacks.
 
+This project only uses core node modules
+
 ## Running Locally
 
     $ node server.js # runs on port 3005
