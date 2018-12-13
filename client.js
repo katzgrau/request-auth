@@ -2,6 +2,7 @@ const request = require('request');
 const auth = require('./auth');
 const port = process.env.PORT || 3005;
 
+// IRL, pass these in via ENV variables
 const clientId = 'globally-unique-access-key-id';
 const clientSecret = 'some-preferrably-long-secret';
 

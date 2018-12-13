@@ -12,7 +12,7 @@
  *     indeed the hashing scheme in use.
  *  2. The client ids and secrets are stored in a "database" which in this case
  *     is just an object. IRL, it'd be a real DB and the secret would ideally
- *     be encrypted
+ *     be encrypted. For clients, secrets would be passed in via env variable
  *  3. There isn't really much in the way of checks/error handling
  */
 const crypto = require('crypto');
